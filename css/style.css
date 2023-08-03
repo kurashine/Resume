@@ -180,10 +180,24 @@ body {
     padding-top: 40px;
 }
 
+.link-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.link-linkedln,
+.link-git,
+.link-telegram {
+    margin-left: 12px;
+}
+
 .contacts-container,
 .soft-skills-container,
 .tech-skills-container {
-    margin: 48px 0 0 40px;
+    margin: 70px 0 0 40px;
 }
 
 .sidebar-title {
@@ -209,7 +223,6 @@ body {
 }
 
 .contacts-number {
-    font-size: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -218,12 +231,17 @@ body {
 }
 
 .contacts-email {
-    font-size: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #2979FF;
     text-decoration: none;
+}
+
+.img-linkedln,
+.img-git,
+.img-telegram {
+    width: 40px;
 }
 
 
@@ -265,38 +283,37 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-    .wrapper {
+    /* .wrapper {
         flex-direction: column-reverse;
-    }
+    } */
 
     .sidebar {
         display: flex;
-        align-items: flex-start;
         padding-top: 20px;
         padding-bottom: 20px;
-    }
-
-    .sidebar-content {
-        padding-top: 0;
-        padding-right: 0;
-        display: flex;
-        flex-wrap: wrap;
+        align-items: center;
     }
 
     .my-photo {
         margin-bottom: 20px;
-        width: 290px;
+        width: 350px;
     }
 
     .skills-row {
-        display: flex;
-        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
     }
+
+
 }
 
-@media screen and (max-width: 775px) {
+
+@media screen and (max-width: 900px) {
     body {
         padding: 0;
+    }
+
+    .wrapper {
+        flex-direction: column-reverse;
     }
 
     .sidebar {
@@ -309,10 +326,25 @@ body {
         width: 200px;
     }
 
-    .sidebar-content {
+
+
+    /* .sidebar-content {
         flex-direction: column;
         align-items: center;
         padding-left: 0;
+    } */
+
+    .contacts-container,
+    .tech-skills-container {
+        margin: 20px 0 0 40px;
+    }
+
+    .soft-skills-container {
+        margin: 20px 0 0 40px;
+    }
+
+    .skills-row {
+        flex-direction: column-reverse;
     }
 }
 
