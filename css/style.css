@@ -133,6 +133,8 @@ body {
 
 .work-experience-company {
     color: #6098F5;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .work-period {
