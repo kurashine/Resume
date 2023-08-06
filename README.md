@@ -1,1 +1,2 @@
-![Screenshot_21](https://github.com/kurashine/Resume/assets/76958599/16be48d4-c0f6-4fe1-8090-00d826f807b6)
+
+![Screenshot_4](https://github.com/kurashine/Resume/assets/76958599/29357345-b60f-4b29-a21e-0a7b9aad4580)
