@@ -180,27 +180,29 @@ body {
     background-color: #DFEEFF;
     padding-bottom: 40px;
     padding-top: 40px;
+    width: 550px;
 }
 
 .link-account {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 30px;
 
 }
 
 .link-linkedln,
 .link-git,
 .link-telegram {
-    margin-left: 12px;
+    margin-left: 15px;
 }
 
 .contacts-container,
 .soft-skills-container,
 .tech-skills-container {
-    margin: 70px 0 0 40px;
+    margin: 10px 0 0 40px;
 }
+
 
 .sidebar-title {
     font-style: normal;
