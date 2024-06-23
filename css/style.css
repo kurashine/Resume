@@ -23,7 +23,7 @@ body {
 
 .main-content {
     padding-left: 88px;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 80px;
     padding-right: 40px;
 }
@@ -40,7 +40,7 @@ body {
     font-weight: 700;
     line-height: 17px;
     color: #000000;
-    margin-bottom: 8px;
+    margin: 0px;
 }
 
 .my-name {
@@ -160,7 +160,7 @@ body {
 }
 
 .my-photo {
-    width: 250px;
+    width: 290px;
 }
 
 /* Education */
@@ -178,29 +178,32 @@ body {
 
 .sidebar {
     background-color: #DFEEFF;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    width: 550px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 500px;
 }
 
 .link-account {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-
+    margin: 50px 50px 0px 50px;
 }
 
 .link-linkedln,
 .link-git,
 .link-telegram {
-    margin-left: 15px;
+    margin-left: 20px;
+
 }
 
 .contacts-container,
 .soft-skills-container,
-.tech-skills-container {
-    margin: 10px 0 0 40px;
+.tech-skills-container,
+.contacts-container,
+.contacts-container,
+.link-account {
+    margin: 70px 50px 0px 60px;
 }
 
 
@@ -282,7 +285,7 @@ body {
     }
 
     .my-photo {
-        width: 220px;
+        width: 3500px;
     }
 }
 
